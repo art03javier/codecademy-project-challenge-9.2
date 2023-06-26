@@ -1,0 +1,207 @@
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background-color: rgb(192, 205, 233);
+  }
+
+  nav a {
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    transition: all 0.8s ease 0s;
+    padding: 1.3rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 10%;
+}
+
+  nav a:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  .navbar ul {
+      display: inline-flex;
+      justify-content: right;
+      background: rgba(0.5, 0.5, 0.5, 0.5);
+      margin: 0px auto;
+	    width: 100%;
+	    padding: 0;
+  }
+  
+  .header {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url("./Mens\ basketball2.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+  }
+  
+  .header img {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  .header h3 {
+    color: white;
+    font-size: 5rem;
+    margin-top: 6rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
+    margin: 1rem .4rem;
+    padding: 1rem;
+  }
+  
+  .purpose,
+  .testimonial,
+  .photos,
+  .invite {
+    margin: 5em auto;
+  }
+  
+  .purpose {
+    padding: 0 1rem;
+  }
+  
+  .purpose p {
+    color: white;
+    text-align: left;
+    font-family: "IBM Plex Sans";
+    font-size: 3rem;
+  }
+  
+  .testimonial {
+    background-color: rgb(192, 205, 233);
+    height: 20rem;
+    text-align: left;
+    padding-left: 1rem;
+    color: black;
+    margin-top: -5px;
+    position: relative;
+    
+  }
+  
+  .testimonial h1 {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  .testimonial p {
+    font-size: 1.5rem;
+  }
+  
+  .purpose h2 {
+    color: yellow;
+    font-family: "IBM Plex Sans";
+    font-size: 4rem;
+    text-align: left;
+    
+  }
+  
+  .photos img {
+    width: 30%;
+    margin: 1.5%;
+  }
+  
+  .invite {
+    margin-top: -15rem;
+    position: relative;
+    
+  }
+  
+  .invite img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .invite h1 {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  
+  @media only screen and (max-width: 1048px) {
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .invite {
+      margin-top: -10rem;  
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+       
+    .navbar ul {
+      justify-content: center;
+    }
+
+    .header h3 {
+      margin-top: 7rem;
+      color: white;
+      padding: 1rem;
+    }
+    
+    h3#banner {
+      background: grey;
+      padding: 1;
+    }
+     
+    .purpose  {
+      margin-top: 20rem;
+    }
+
+    .header {
+      max-height: 200px;
+    }
+    
+    .photos img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -1rem;
+    }
+  
+    li {
+      display: block;
+      text-align:justify;
+    }
+
+    .testimonial p {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    
+    .photos img {
+      width: 100%;
+   }
+
+    .testimonial h1 {
+      font-size: 2rem;
+    }  
+  }
+ 
+  
