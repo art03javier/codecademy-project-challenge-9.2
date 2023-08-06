@@ -1,7 +1,7 @@
 Challenge Project: Responsive Club Website
 
 Project Goals
-In this project, I’ll be building my own club group page that will dynamically respond as you adjust the size of the screen!​
+In this project, I’ll builded my own club group page that will dynamically respond as you adjust the size of the screen!​
 
 This project demonstrate many of the responsive design tools I learned. 
 The responsive design concepts are as follow;
