@@ -138,7 +138,26 @@ body {
     text-align: center;
     font-size: 3.5rem;
   }
-  
+
+  body #top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+  }
+
+  body #top:hover {
+    background-color: white;
+    color: blue;
+  }
+   
   @media only screen and (max-width: 1048px) {
     .photos img {
       width: 100%;
